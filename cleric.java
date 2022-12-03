@@ -11,6 +11,4 @@ public class cleric {
     this.mp -= 5;
     System.out.println("HPが最大まで回復した");
   }
-  
-  
 }

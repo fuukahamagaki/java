@@ -1,20 +1,16 @@
 public class Main {
   public static void main (String[] args) {
-    System.out.print("[メニュー] 1:検索 2:登録 3:削除 4:変更>");
-    int selected = new java.util.Scanner(System.in).nextInt();
-    switch (selected) {
-      case 1:
-        System.out.println("検索します");
-        break;
-      case 2:
-        System.out.println("登録します");
-        break;
-      case 3:
-        System.out.println("削除します");
-        break;
-      case 4:
-        System.out.println("変更します");
-        break;
-    }
+    double triangleArea = calcTriangleArea(10.0,5.0);
+    System.out.println("三角形の面積：" + triangleArea + "平方cm");
+    double circleArea = calcCircleArea(5.0);
+    System.out.println("円の面積：" + circleArea + "平方cm");
+  }
+  public static double calcTriangleArea(double bottom,double height){
+    double area = (bottom * height) / 2;
+    return area;
+  }
+  public static double calcCircleArea(double radius){
+    double area = radius * radius * 3.14;
+    return area;
   }
 }
