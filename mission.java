@@ -1,15 +1,16 @@
 class mission {
   public static void main(String[] args) {
     
-    int number1 = 3;
-    int number2 = 7;
+     int number = 11;
+    String text = "Ruby";
+    System.out.println(number);
+    System.out.println(text);
     
-    System.out.println(number1 * number2);
+    number = 9;
+    System.out.println(number);
     
-    String text;
-    text = "プログラミングを勉強しよう";
-    
-    System.out.println("今から" + text);
+    text = "Java";
+    System.out.println(text);
     
   }
 }
