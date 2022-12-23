@@ -1,16 +1,18 @@
 class mission {
   public static void main(String[] args) {
     
-     int number = 11;
-    String text = "Ruby";
+    int number = 8;
+    
+    // 変数numberに7をかけて、変数numberを上書きしてください
+    number *= 7;
+    
+    // 変数numberを出力してください
     System.out.println(number);
-    System.out.println(text);
     
-    number = 9;
+    // 変数numberの値に1を足して、変数numberを上書きしてください
+    number ++;
+    
+    // 変数numberを出力してください
     System.out.println(number);
-    
-    text = "Java";
-    System.out.println(text);
-    
   }
 }
