@@ -1,13 +1,10 @@
 class mission {
   public static void main(String[] args) {
     
-    int length = 6;
-    int height = 8;
+    double number1 = 8.5;
+    double number2 = 3.4;
     
-    int rectangleArea = length * height;
-    System.out.println(rectangleArea);
-    
-    int triangleArea = length * height /2;
-    System.out.println(triangleArea);
+    System.out.println(number1 + number2);
+    System.out.println(number1 - number2);
   }
 }
